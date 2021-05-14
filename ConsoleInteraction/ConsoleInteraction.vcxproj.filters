@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VeryEasyUI">
+      <UniqueIdentifier>{52661f64-7583-4393-9e20-5ce9f125a915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VeryEasyUI">
+      <UniqueIdentifier>{a051694e-d657-43f2-b1be-34da539858d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Easy">
+      <UniqueIdentifier>{ddaf67b6-6362-4ff6-b7e7-d8e09a329a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Easy">
+      <UniqueIdentifier>{c2ebaffd-53b7-41bb-9dbd-df7f0db7119b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodUIHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharToUpperUI.cpp">
+      <Filter>Source Files\VeryEasyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthConverterUI.cpp">
+      <Filter>Source Files\VeryEasyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberByDigitUI.cpp">
+      <Filter>Source Files\VeryEasyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMathUI.cpp">
+      <Filter>Source Files\VeryEasyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IntToCharUI.cpp">
+      <Filter>Source Files\VeryEasyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseDrawingUI.cpp">
+      <Filter>Source Files\VeryEasyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleOneCoutUI.cpp">
+      <Filter>Source Files\VeryEasyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TrianglesDrawingUI.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgebraicSummUI.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgebraicSumm2UI.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleCalcUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodUIHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LengthConverterUI.h">
+      <Filter>Header Files\VeryEasyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharToUpperUI.h">
+      <Filter>Header Files\VeryEasyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberByDigitUI.h">
+      <Filter>Header Files\VeryEasyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMathUI.h">
+      <Filter>Header Files\VeryEasyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IntToCharUI.h">
+      <Filter>Header Files\VeryEasyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseDrawingUI.h">
+      <Filter>Header Files\VeryEasyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleOneCoutUI.h">
+      <Filter>Header Files\VeryEasyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TrianglesDrawingUI.h">
+      <Filter>Header Files\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgebraicSummUI.h">
+      <Filter>Header Files\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgebraicSumm2UI.h">
+      <Filter>Header Files\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleCalcUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
