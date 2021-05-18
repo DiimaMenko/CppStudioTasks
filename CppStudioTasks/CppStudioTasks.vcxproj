@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
-      <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
       <Platform>x64</Platform>
@@ -19,36 +11,36 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AlgebraicSumm.h" />
-    <ClInclude Include="AlgebraicSumm2.h" />
-    <ClInclude Include="AngleCalc.h" />
-    <ClInclude Include="BraceBalance.h" />
-    <ClInclude Include="CharToUpper.h" />
-    <ClInclude Include="HouseDrawing.h" />
-    <ClInclude Include="IntToChar.h" />
-    <ClInclude Include="LengthConvert.h" />
-    <ClInclude Include="MinMaxDigit.h" />
-    <ClInclude Include="NumberByDigit.h" />
-    <ClInclude Include="Power.h" />
-    <ClInclude Include="RandomNumberGenerator.h" />
-    <ClInclude Include="SimpleMath.h" />
-    <ClInclude Include="TriangleOneCout.h" />
+    <ClInclude Include="Headers\VeryEasy\CharToUpper.h" />
+    <ClInclude Include="Headers\VeryEasy\HouseDrawing.h" />
+    <ClInclude Include="Headers\VeryEasy\IntToChar.h" />
+    <ClInclude Include="Headers\VeryEasy\LengthConvert.h" />
+    <ClInclude Include="Headers\VeryEasy\NumberByDigit.h" />
+    <ClInclude Include="Headers\VeryEasy\SimpleMath.h" />
+    <ClInclude Include="Headers\VeryEasy\TriangleOneCout.h" />
+    <ClInclude Include="Headers\Easy\AlgebraicSumm.h" />
+    <ClInclude Include="Headers\Easy\AlgebraicSumm2.h" />
+    <ClInclude Include="Headers\Easy\AngleCalc.h" />
+    <ClInclude Include="Headers\Easy\MinMaxDigit.h" />
+    <ClInclude Include="Headers\Easy\Power.h" />
+    <ClInclude Include="Headers\Easy\RandomNumberGenerator.h" />
+    <ClInclude Include="Headers\Normal\BraceBalance.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AlgebraicSumm.cpp" />
-    <ClCompile Include="AlgebraicSumm2.cpp" />
-    <ClCompile Include="AngleCalc.cpp" />
-    <ClCompile Include="BraceBalance.cpp" />
-    <ClCompile Include="CharToUpper.cpp" />
-    <ClCompile Include="HouseDrawing.cpp" />
-    <ClCompile Include="IntToChar.cpp" />
-    <ClCompile Include="LengthConvert.cpp" />
-    <ClCompile Include="MinMaxDigit.cpp" />
-    <ClCompile Include="NumberByDigit.cpp" />
-    <ClCompile Include="Power.cpp" />
-    <ClCompile Include="RandomNumberGenerator.cpp" />
-    <ClCompile Include="SimpleMath.cpp" />
-    <ClCompile Include="TriangleOneCout.cpp" />
+    <ClCompile Include="Source\VeryEasy\CharToUpper.cpp" />
+    <ClCompile Include="Source\VeryEasy\HouseDrawing.cpp" />
+    <ClCompile Include="Source\VeryEasy\IntToChar.cpp" />
+    <ClCompile Include="Source\VeryEasy\LengthConvert.cpp" />
+    <ClCompile Include="Source\VeryEasy\NumberByDigit.cpp" />
+    <ClCompile Include="Source\VeryEasy\SimpleMath.cpp" />
+    <ClCompile Include="Source\VeryEasy\TriangleOneCout.cpp" />
+    <ClCompile Include="Source\Easy\AlgebraicSumm.cpp" />
+    <ClCompile Include="Source\Easy\AlgebraicSumm2.cpp" />
+    <ClCompile Include="Source\Easy\AngleCalc.cpp" />
+    <ClCompile Include="Source\Easy\MinMaxDigit.cpp" />
+    <ClCompile Include="Source\Easy\Power.cpp" />
+    <ClCompile Include="Source\Easy\RandomNumberGenerator.cpp" />
+    <ClCompile Include="Source\Normal\BraceBalance.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -58,19 +50,6 @@
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
-    <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
@@ -89,12 +68,6 @@
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -102,46 +75,12 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>

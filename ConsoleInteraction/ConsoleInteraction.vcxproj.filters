@@ -1,120 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Source Files\VeryEasyUI">
-      <UniqueIdentifier>{52661f64-7583-4393-9e20-5ce9f125a915}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\VeryEasyUI">
-      <UniqueIdentifier>{a051694e-d657-43f2-b1be-34da539858d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Easy">
-      <UniqueIdentifier>{ddaf67b6-6362-4ff6-b7e7-d8e09a329a20}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Easy">
-      <UniqueIdentifier>{c2ebaffd-53b7-41bb-9dbd-df7f0db7119b}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\Easy\AlgebraicSumm2UI.cpp">
+      <Filter>Source\Easy</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\Easy\AlgebraicSummUI.cpp">
+      <Filter>Source\Easy</Filter>
     </ClCompile>
-    <ClCompile Include="MenuItem.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\Easy\AngleCalcUI.cpp">
+      <Filter>Source\Easy</Filter>
     </ClCompile>
-    <ClCompile Include="MethodUIHelper.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\Easy\TrianglesDrawingUI.cpp">
+      <Filter>Source\Easy</Filter>
     </ClCompile>
-    <ClCompile Include="CharToUpperUI.cpp">
-      <Filter>Source Files\VeryEasyUI</Filter>
+    <ClCompile Include="Source\UIHelper\Menu.cpp">
+      <Filter>Source\UIHelper</Filter>
     </ClCompile>
-    <ClCompile Include="LengthConverterUI.cpp">
-      <Filter>Source Files\VeryEasyUI</Filter>
+    <ClCompile Include="Source\UIHelper\MenuItem.cpp">
+      <Filter>Source\UIHelper</Filter>
     </ClCompile>
-    <ClCompile Include="NumberByDigitUI.cpp">
-      <Filter>Source Files\VeryEasyUI</Filter>
+    <ClCompile Include="Source\UIHelper\MethodUIHelper.cpp">
+      <Filter>Source\UIHelper</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleMathUI.cpp">
-      <Filter>Source Files\VeryEasyUI</Filter>
+    <ClCompile Include="Source\VeryEasy\CharToUpperUI.cpp">
+      <Filter>Source\VeryEasy</Filter>
     </ClCompile>
-    <ClCompile Include="IntToCharUI.cpp">
-      <Filter>Source Files\VeryEasyUI</Filter>
+    <ClCompile Include="Source\VeryEasy\HouseDrawingUI.cpp">
+      <Filter>Source\VeryEasy</Filter>
     </ClCompile>
-    <ClCompile Include="HouseDrawingUI.cpp">
-      <Filter>Source Files\VeryEasyUI</Filter>
+    <ClCompile Include="Source\VeryEasy\IntToCharUI.cpp">
+      <Filter>Source\VeryEasy</Filter>
     </ClCompile>
-    <ClCompile Include="TriangleOneCoutUI.cpp">
-      <Filter>Source Files\VeryEasyUI</Filter>
+    <ClCompile Include="Source\VeryEasy\LengthConverterUI.cpp">
+      <Filter>Source\VeryEasy</Filter>
     </ClCompile>
-    <ClCompile Include="TrianglesDrawingUI.cpp">
-      <Filter>Source Files\Easy</Filter>
+    <ClCompile Include="Source\VeryEasy\NumberByDigitUI.cpp">
+      <Filter>Source\VeryEasy</Filter>
     </ClCompile>
-    <ClCompile Include="AlgebraicSummUI.cpp">
-      <Filter>Source Files\Easy</Filter>
+    <ClCompile Include="Source\VeryEasy\SimpleMathUI.cpp">
+      <Filter>Source\VeryEasy</Filter>
     </ClCompile>
-    <ClCompile Include="AlgebraicSumm2UI.cpp">
-      <Filter>Source Files\Easy</Filter>
+    <ClCompile Include="Source\VeryEasy\TriangleOneCoutUI.cpp">
+      <Filter>Source\VeryEasy</Filter>
     </ClCompile>
-    <ClCompile Include="AngleCalcUI.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Easy\SizePrintingUI.cpp">
+      <Filter>Source\Easy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Menu.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Headers\Easy\AlgebraicSumm2UI.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="MenuItem.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Headers\Easy\AlgebraicSummUI.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="MethodUIHelper.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Headers\Easy\AngleCalcUI.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="LengthConverterUI.h">
-      <Filter>Header Files\VeryEasyUI</Filter>
+    <ClInclude Include="Headers\Easy\TrianglesDrawingUI.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="CharToUpperUI.h">
-      <Filter>Header Files\VeryEasyUI</Filter>
+    <ClInclude Include="Headers\UIHelper\Menu.h">
+      <Filter>Headers\UIHelper</Filter>
     </ClInclude>
-    <ClInclude Include="NumberByDigitUI.h">
-      <Filter>Header Files\VeryEasyUI</Filter>
+    <ClInclude Include="Headers\UIHelper\MenuItem.h">
+      <Filter>Headers\UIHelper</Filter>
     </ClInclude>
-    <ClInclude Include="SimpleMathUI.h">
-      <Filter>Header Files\VeryEasyUI</Filter>
+    <ClInclude Include="Headers\UIHelper\MethodUIHelper.h">
+      <Filter>Headers\UIHelper</Filter>
     </ClInclude>
-    <ClInclude Include="IntToCharUI.h">
-      <Filter>Header Files\VeryEasyUI</Filter>
+    <ClInclude Include="Headers\VeryEasy\CharToUpperUI.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="HouseDrawingUI.h">
-      <Filter>Header Files\VeryEasyUI</Filter>
+    <ClInclude Include="Headers\VeryEasy\HouseDrawingUI.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="TriangleOneCoutUI.h">
-      <Filter>Header Files\VeryEasyUI</Filter>
+    <ClInclude Include="Headers\VeryEasy\IntToCharUI.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="TrianglesDrawingUI.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\VeryEasy\LengthConverterUI.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="AlgebraicSummUI.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\VeryEasy\NumberByDigitUI.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="AlgebraicSumm2UI.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\VeryEasy\SimpleMathUI.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="AngleCalcUI.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Headers\VeryEasy\TriangleOneCoutUI.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
+    <ClInclude Include="Headers\Easy\SizePrintingUI.h">
+      <Filter>Headers\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\AllLevels.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{8985e8e2-6f87-412c-b4af-8b766a07fcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a1e7cb3a-c999-4e08-8317-e0f9e5b34d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Easy">
+      <UniqueIdentifier>{d25ac7f1-73ed-446e-baf1-3471fc86c6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\VeryEasy">
+      <UniqueIdentifier>{47f735e9-9b3f-4430-87b4-0e10df574f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Normal">
+      <UniqueIdentifier>{2f24727b-0f1d-48de-9e9e-cdf2a02ef402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Hard">
+      <UniqueIdentifier>{92bf7a37-fa47-4c6e-8ee0-cc859f325296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Experienced">
+      <UniqueIdentifier>{17092ad6-3fc5-4c80-a36b-c9b9bb932515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Easy">
+      <UniqueIdentifier>{7b093300-8cc4-4f52-a824-69ae3b1062e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hard">
+      <UniqueIdentifier>{121a7f61-5b76-45b4-bdbc-b470a9695f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Experienced">
+      <UniqueIdentifier>{ff9b4cf1-bc49-4424-8c0e-f813407adcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Normal">
+      <UniqueIdentifier>{e15c3940-f540-4c98-940c-c9a48b141bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\VeryEasy">
+      <UniqueIdentifier>{63d6f036-b8a4-4d03-b1b3-85e4d44c630f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\UIHelper">
+      <UniqueIdentifier>{7a8b92ab-7e52-4fcd-8e6a-a0e64102e70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UIHelper">
+      <UniqueIdentifier>{50470704-a6bc-412f-9c01-31d0434065f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

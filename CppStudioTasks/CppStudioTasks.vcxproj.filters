@@ -1,123 +1,131 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Source Files\VeryEasy">
-      <UniqueIdentifier>{59cc7963-b5e3-4400-80ee-f9f57ae4233c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\VeryEasy">
-      <UniqueIdentifier>{c249ccd9-87e2-4eed-aec8-5de687c84282}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Easy">
-      <UniqueIdentifier>{c617794b-9de9-4416-a018-5347aa859018}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Easy">
-      <UniqueIdentifier>{e06b51c6-98c2-4f74-9ddb-e659e264f1a6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Normal">
-      <UniqueIdentifier>{2af5fd74-0de1-45e0-b793-f52e528fa088}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Normal">
-      <UniqueIdentifier>{9391877b-4f62-47a4-9a9c-1ba38f6b5439}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="Source\Easy\AlgebraicSumm.cpp">
+      <Filter>Source\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Easy\AlgebraicSumm2.cpp">
+      <Filter>Source\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Easy\AngleCalc.cpp">
+      <Filter>Source\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Normal\BraceBalance.cpp">
+      <Filter>Source\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VeryEasy\CharToUpper.cpp">
+      <Filter>Source\VeryEasy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VeryEasy\HouseDrawing.cpp">
+      <Filter>Source\VeryEasy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VeryEasy\IntToChar.cpp">
+      <Filter>Source\VeryEasy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VeryEasy\LengthConvert.cpp">
+      <Filter>Source\VeryEasy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Easy\MinMaxDigit.cpp">
+      <Filter>Source\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Easy\Power.cpp">
+      <Filter>Source\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Easy\RandomNumberGenerator.cpp">
+      <Filter>Source\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VeryEasy\NumberByDigit.cpp">
+      <Filter>Source\VeryEasy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VeryEasy\SimpleMath.cpp">
+      <Filter>Source\VeryEasy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VeryEasy\TriangleOneCout.cpp">
+      <Filter>Source\VeryEasy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SimpleMath.h">
-      <Filter>Header Files\VeryEasy</Filter>
+    <ClInclude Include="Headers\Easy\AlgebraicSumm.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="CharToUpper.h">
-      <Filter>Header Files\VeryEasy</Filter>
+    <ClInclude Include="Headers\Easy\AlgebraicSumm2.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="LengthConvert.h">
-      <Filter>Header Files\VeryEasy</Filter>
+    <ClInclude Include="Headers\Easy\AngleCalc.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="NumberByDigit.h">
-      <Filter>Header Files\VeryEasy</Filter>
+    <ClInclude Include="Headers\Normal\BraceBalance.h">
+      <Filter>Headers\Normal</Filter>
     </ClInclude>
-    <ClInclude Include="IntToChar.h">
-      <Filter>Header Files\VeryEasy</Filter>
+    <ClInclude Include="Headers\VeryEasy\CharToUpper.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="HouseDrawing.h">
-      <Filter>Header Files\VeryEasy</Filter>
+    <ClInclude Include="Headers\VeryEasy\HouseDrawing.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="TriangleOneCout.h">
-      <Filter>Header Files\VeryEasy</Filter>
+    <ClInclude Include="Headers\VeryEasy\IntToChar.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="AlgebraicSumm.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\VeryEasy\LengthConvert.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="AlgebraicSumm2.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\Easy\MinMaxDigit.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="MinMaxDigit.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\Easy\Power.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="AngleCalc.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\Easy\RandomNumberGenerator.h">
+      <Filter>Headers\Easy</Filter>
     </ClInclude>
-    <ClInclude Include="Power.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\VeryEasy\NumberByDigit.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="RandomNumberGenerator.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="Headers\VeryEasy\SimpleMath.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
-    <ClInclude Include="BraceBalance.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Headers\VeryEasy\TriangleOneCout.h">
+      <Filter>Headers\VeryEasy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CharToUpper.cpp">
-      <Filter>Source Files\VeryEasy</Filter>
-    </ClCompile>
-    <ClCompile Include="LengthConvert.cpp">
-      <Filter>Source Files\VeryEasy</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberByDigit.cpp">
-      <Filter>Source Files\VeryEasy</Filter>
-    </ClCompile>
-    <ClCompile Include="SimpleMath.cpp">
-      <Filter>Source Files\VeryEasy</Filter>
-    </ClCompile>
-    <ClCompile Include="IntToChar.cpp">
-      <Filter>Source Files\VeryEasy</Filter>
-    </ClCompile>
-    <ClCompile Include="HouseDrawing.cpp">
-      <Filter>Source Files\VeryEasy</Filter>
-    </ClCompile>
-    <ClCompile Include="TriangleOneCout.cpp">
-      <Filter>Source Files\VeryEasy</Filter>
-    </ClCompile>
-    <ClCompile Include="AlgebraicSumm.cpp">
-      <Filter>Source Files\Easy</Filter>
-    </ClCompile>
-    <ClCompile Include="AlgebraicSumm2.cpp">
-      <Filter>Source Files\Easy</Filter>
-    </ClCompile>
-    <ClCompile Include="MinMaxDigit.cpp">
-      <Filter>Source Files\Easy</Filter>
-    </ClCompile>
-    <ClCompile Include="AngleCalc.cpp">
-      <Filter>Source Files\Easy</Filter>
-    </ClCompile>
-    <ClCompile Include="Power.cpp">
-      <Filter>Source Files\Easy</Filter>
-    </ClCompile>
-    <ClCompile Include="RandomNumberGenerator.cpp">
-      <Filter>Source Files\Easy</Filter>
-    </ClCompile>
-    <ClCompile Include="BraceBalance.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c802a803-a4f0-415d-9162-89041198557e}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\Easy">
+      <UniqueIdentifier>{9e6ea4f1-5710-4fba-af1a-742d8ab83a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hard">
+      <UniqueIdentifier>{70f90b6b-e8ed-4a8b-96cc-58af002f7a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Experienced">
+      <UniqueIdentifier>{8167690a-78d0-4700-9279-d4d4062a6ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Normal">
+      <UniqueIdentifier>{a52ef634-09af-402c-a5e0-14c7c6a01c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\VeryEasy">
+      <UniqueIdentifier>{a3bfb112-dcba-4d7d-bd9f-99116ea9f234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{9475c1b7-93f6-41e5-a7a3-2a4390fdaac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Easy">
+      <UniqueIdentifier>{5c6282b3-d0f1-4e2a-8b0b-435ddc5180f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\VeryEasy">
+      <UniqueIdentifier>{3a68d9a4-4288-4d14-855a-e9c6b909e5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Normal">
+      <UniqueIdentifier>{4a8a2b08-a45d-4090-97dd-5ebd6bbc8891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Hard">
+      <UniqueIdentifier>{5dbcde9b-9d2a-41e2-bf52-85bf6486bc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Experienced">
+      <UniqueIdentifier>{faec1b66-a7a6-4cf8-a72d-ace30381a7f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

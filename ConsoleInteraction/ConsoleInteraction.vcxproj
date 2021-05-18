@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
-      <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
       <Platform>x64</Platform>
@@ -26,19 +18,6 @@
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
@@ -57,12 +36,6 @@
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -70,46 +43,12 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -139,37 +78,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AlgebraicSumm2UI.cpp" />
-    <ClCompile Include="AlgebraicSummUI.cpp" />
-    <ClCompile Include="AngleCalcUI.cpp" />
-    <ClCompile Include="CharToUpperUI.cpp" />
-    <ClCompile Include="HouseDrawingUI.cpp" />
-    <ClCompile Include="IntToCharUI.cpp" />
-    <ClCompile Include="LengthConverterUI.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="MenuItem.cpp" />
-    <ClCompile Include="MethodUIHelper.cpp" />
-    <ClCompile Include="NumberByDigitUI.cpp" />
-    <ClCompile Include="SimpleMathUI.cpp" />
-    <ClCompile Include="TriangleOneCoutUI.cpp" />
-    <ClCompile Include="TrianglesDrawingUI.cpp" />
+    <ClCompile Include="Source\Easy\AlgebraicSumm2UI.cpp" />
+    <ClCompile Include="Source\Easy\AlgebraicSummUI.cpp" />
+    <ClCompile Include="Source\Easy\AngleCalcUI.cpp" />
+    <ClCompile Include="Source\Easy\SizePrintingUI.cpp" />
+    <ClCompile Include="Source\VeryEasy\CharToUpperUI.cpp" />
+    <ClCompile Include="Source\VeryEasy\HouseDrawingUI.cpp" />
+    <ClCompile Include="Source\VeryEasy\IntToCharUI.cpp" />
+    <ClCompile Include="Source\VeryEasy\LengthConverterUI.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\UIHelper\Menu.cpp" />
+    <ClCompile Include="Source\UIHelper\MenuItem.cpp" />
+    <ClCompile Include="Source\UIHelper\MethodUIHelper.cpp" />
+    <ClCompile Include="Source\VeryEasy\NumberByDigitUI.cpp" />
+    <ClCompile Include="Source\VeryEasy\SimpleMathUI.cpp" />
+    <ClCompile Include="Source\VeryEasy\TriangleOneCoutUI.cpp" />
+    <ClCompile Include="Source\Easy\TrianglesDrawingUI.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AlgebraicSumm2UI.h" />
-    <ClInclude Include="AlgebraicSummUI.h" />
-    <ClInclude Include="AngleCalcUI.h" />
-    <ClInclude Include="CharToUpperUI.h" />
-    <ClInclude Include="HouseDrawingUI.h" />
-    <ClInclude Include="IntToCharUI.h" />
-    <ClInclude Include="LengthConverterUI.h" />
-    <ClInclude Include="Menu.h" />
-    <ClInclude Include="MenuItem.h" />
-    <ClInclude Include="MethodUIHelper.h" />
-    <ClInclude Include="NumberByDigitUI.h" />
-    <ClInclude Include="SimpleMathUI.h" />
-    <ClInclude Include="TriangleOneCoutUI.h" />
-    <ClInclude Include="TrianglesDrawingUI.h" />
+    <ClInclude Include="Headers\AllLevels.h" />
+    <ClInclude Include="Headers\Easy\AlgebraicSumm2UI.h" />
+    <ClInclude Include="Headers\Easy\AlgebraicSummUI.h" />
+    <ClInclude Include="Headers\Easy\AngleCalcUI.h" />
+    <ClInclude Include="Headers\Easy\SizePrintingUI.h" />
+    <ClInclude Include="Headers\VeryEasy\CharToUpperUI.h" />
+    <ClInclude Include="Headers\VeryEasy\HouseDrawingUI.h" />
+    <ClInclude Include="Headers\VeryEasy\IntToCharUI.h" />
+    <ClInclude Include="Headers\VeryEasy\LengthConverterUI.h" />
+    <ClInclude Include="Headers\UIHelper\Menu.h" />
+    <ClInclude Include="Headers\UIHelper\MenuItem.h" />
+    <ClInclude Include="Headers\UIHelper\MethodUIHelper.h" />
+    <ClInclude Include="Headers\VeryEasy\NumberByDigitUI.h" />
+    <ClInclude Include="Headers\VeryEasy\SimpleMathUI.h" />
+    <ClInclude Include="Headers\VeryEasy\TriangleOneCoutUI.h" />
+    <ClInclude Include="Headers\Easy\TrianglesDrawingUI.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CppStudioTasks\CppStudioTasks.vcxproj">
